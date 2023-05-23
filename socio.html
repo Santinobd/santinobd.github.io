@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="responsive.css">
+    <title>Amigos por un sueño</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="#">Amigos por un sueño</a></div>
+            <ul class="links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about">Integrantes</a></li>
+                <li><a href="services">Socios</a></li>
+                <li><a href="contacto">contactanos</a></li>
+            </ul>
+            <a href="socio.html" class="action_btn">Se un socio</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="dropdown_menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about">Integrantes</a></li>
+            <li><a href="services">Socios</a></li>
+            <li><a href="contacto">contactanos</a></li>
+            <li><a href="socio.html" class="action_btn">se un socio</a></li>
+        </div>
+    </header>
+    
+    <div class="login-box">
+ 
+        <form>
+          <div class="user-box">
+            <input type="text" name="" required="">
+            <label>Nombre</label>
+          </div>
+          <div class="user-box">
+            <input type="password" name="" required="">
+            <label>Contraseña</label>
+          </div><center>
+          <a href="#">
+                 ENVIAR
+             <span></span>
+          </a></center>
+        </form>
+      </div>
+
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleBtnIcon.classList = isOpen
+              ? 'fa-solid fa-xmark'
+              : 'fa-solid fa-bars'
+        }
+    </script>
+</body>
+
+</html>
