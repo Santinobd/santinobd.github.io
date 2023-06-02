@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigos por un sueño</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">
+            <span>FAMILY</span>apus</a>
+
+        <div class="navbar">
+            <div class="logo"><a href="index.html"></a></div>
+            <ul class="links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="integrantes.html">Fundadores</a></li>
+                <li><a href="acercade.html">Socios</a></li>
+                <li><a href="contacto">contactanos</a></li>
+            </ul>
+            <a href="socio.html" class="action_btn">Se un socio</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="dropdown_menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="integrantes.html">Fundadores</a></li>
+            <li><a href="acercade.html">Socios</a></li>
+            <li><a href="contacto">contactanos</a></li>
+            <li><a href="socio.html" class="action_btn">se un socio</a></li>
+        </div>
+
+    </header>
+
+    <section class="acerca" id="acerca">
+        <h1 class="heading">Relleno</h1>
+        <div class="columna">
+            <div class="imagen">
+                <img src="./amigos por un sueno.png" alt="">
+            </div>
+            <div class="content_i">
+                <h3>Relleno</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta tenetur saepe quisquam beatae
+                    numquam, tempore laboriosam, porro officia deserunt ut aut soluta impedit omnis! Accusamus cum
+                    necessitatibus quidem! Asperiores, porro?</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed asperiores harum non earum libero
+                    illum, ex porro officia similique quia iste ullam suscipit quasi, distinctio illo debitis assumenda
+                    sapiente odit?</p>
+
+                <div class="buttons">
+                    <a href="#" class="btn"><i class="fa-brands fa-instagram">BUSCANOS</i></a>
+                    <a href="#" class="btn"><i class="fa-solid fa-map-pin"></i>ENCUENTRANOS</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleBtnIcon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+        }
+
+    </script>
+</body>
+
+</html>
