@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500;1,600&family=Raleway:wght@300;400;700&display=swap');
+
+:root{
+   --background: linear-gradient(rgba(255, 128, 0, 0.349),rgba(255, 0, 0, 0.507));
+    --color-primary: #c21111;
+    --color-secondary: #764ba2;
+    --boton-padding: 20px 40px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: var(--background), url('national-cancer-institute-eRExodEMiOE-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 300px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    
+
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  input, button {
+    padding: 8px;
+    margin: 5px 0;
+  }
+  
+  button {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: red;
+  }
+  
