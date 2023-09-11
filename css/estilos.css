@@ -1,0 +1,269 @@
+/* utulo grande 400 y el ayudemos en 600 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-image: url(../imagenes/fondo\ niña.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+nav{
+    background-color: #fff;
+    padding: 30px;
+    opacity: 0.4;
+
+}
+
+nav ul li{
+    list-style: none;
+    float: right;
+    margin-top: -11px;
+}
+
+nav ul li a{
+    font-family: 'Poppins';
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    margin: 20px;
+    font-weight: 400;
+}
+
+
+#containers{
+    margin-left: 100px;
+    margin-top: 100px;
+    color: #fff;
+}
+
+#containers img{
+    text-align: justify;
+}
+
+#containers h1{
+    text-align: justify;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 35px;
+}
+
+#containers h2{
+    font-family: 'Poppins';
+    font-weight: 600;
+    width: 340px;
+    font-size: 25px;
+}
+
+.qso{
+    height: 570px;
+}
+
+.qso h1{
+    font-family: 'poppins';
+    margin-top: 40px;
+    font-weight: 400;
+    color: rgb(163, 29, 29);
+    width: 400px;
+    font-size: 40px;
+    margin-left: 150px;
+    text-align: left;
+}
+
+.qso p{
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 15.3px;
+    width: 400px;
+    margin-left: 150px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.cinta{
+    margin-top: -100px;
+    padding: 10px;
+    margin-left: 70px;
+}
+
+.qui1{
+    float: right;
+    margin-top: -400px;
+    margin-right: 70px;
+    width: 420px;
+}
+
+.qui2{
+    margin-top: -30px;
+    float: right;
+    margin-right: -30px
+}
+
+
+
+.nm{
+    background-image: url(../imagenes/fondo\ manos\ gris.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin-top: -20px;
+}
+
+.nm div{
+    width: 100%;
+}
+
+.nm div h1{
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 40px;
+    color: rgb(163, 29, 29);
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 150px;
+}
+
+
+.nm div p{
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 15.3px;
+    width: 400px;
+    margin-left: 150px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.nu1{
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 400px;
+}
+
+.nu2{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.hero_cta{
+    margin-top: 20px;
+    font-family: 'poppins';
+    font-weight: 400;
+    display: inline-block;
+    background: #fff;
+    padding: 10px 40px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 40px;
+    text-align: center;
+    background-color: rgb(163, 29, 29);
+    border-color: #fff;
+}
+
+/*Qué hacemos*/
+
+#qh{
+    background-color:rgb(204, 204, 204);
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 760px;
+}
+#quehacemos h1{
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 40px;
+    color: rgb(163, 29, 29);
+    margin-top: 70px;
+    text-align: left;
+    margin-left: 150px;
+
+}
+
+#quehacemos p{
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 15.3px;
+    width: 400px;
+    margin-left: 150px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.qu1{
+    width: 400px;
+    float: right;
+    margin-top: -43%;
+    margin-right: 250px;
+}
+
+.qu3{  
+    float: right;
+    margin-top: -15%;
+    margin-right: 100px;
+}
+
+.qu2{
+    float: right;
+    margin-top: -13%;
+    margin-right: 120px;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: rgb(163, 29, 29);
+    padding: 70px 0 170px 0;
+}
+#asidefoot{
+    float: right;
+    margin-top: -60px;
+}
+#sepfoot{
+    width: 70%;
+    margin: 20px 0 20px 0;
+    border: 1px;
+    border-color: white;
+    border-style: solid none none none;
+}
+#footleft{
+    float: left;
+    width: 60%;
+    color: white;
+}
+#imgfoot{
+    padding: 0;
+    margin-top: 56%;
+    margin-left: -40%;
+    display: block;
+    width: 90px;
+    height: 180px;
+}
+.iconofooter{
+    width: 20px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 4px;
+    float: left;
+    margin-right: 7px;
+}
+.desfooter{
+    margin-left: 15%;
+}
+
+
+.desfooter p{
+    text-align: left;
+    color: #000;
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 14px;
+}
+
